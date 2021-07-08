@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>f2e46655-8433-4424-afbf-c82ae501d033</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AejaazModels\AMModels.csproj" />
+    <ProjectReference Include="..\AMDataAccess\AMDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
